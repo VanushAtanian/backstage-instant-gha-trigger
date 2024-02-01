@@ -1,13 +1,13 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: repo-with-secrets
-  title: Creating Repository With Secrets
-  description: We will try to create repo with attached secrets
+  name: repo-with-instant-trigger
+  title: Creating Repository To Check trigerring actions
+  description: We will try to create repo and instantly run actions
   tags:
-    - secrets
+    - workflow
+    - instant
     - demo
-    - repositories
 spec:
   owner: service@example.com
   type: service
