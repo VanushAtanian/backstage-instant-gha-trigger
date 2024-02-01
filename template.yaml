@@ -68,6 +68,14 @@ spec:
       input:
         repoUrl: ${{ parameters.repoUrl }}
 
+    - id: trigerring
+      name: Trigger Workflows
+      action: github:actions:dispatch
+      input:
+        repoUrl: ${{ parameters.repoUrl }}
+        workflowId: testworkflow.yaml
+        branchOrTagName: main
+
     # - id: publish
     #   name: Publish
     #   action: publish:github
