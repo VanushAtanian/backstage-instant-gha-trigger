@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: repo-with-secrets-and-triggered-workflow
+  description: Template for Creation repo With Instant Trigger of Workflow
+spec:
+  type: service
+  owner: service@example.com
+  lifecycle: experimental

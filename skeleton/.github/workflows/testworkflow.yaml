@@ -1,0 +1,14 @@
+name: Instant Test 1
+on:
+  push:
+    branches: 
+      - main
+  workflow_dispatch:
+
+
+jobs:
+  create-prerequired:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
