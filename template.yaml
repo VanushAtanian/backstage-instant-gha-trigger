@@ -74,7 +74,7 @@ spec:
       input:
         repoUrl: ${{ parameters.repoUrl }}
         workflowId: testworkflow.yaml
-        branchOrTagName: main
+        branchOrTagName: master
 
     # - id: publish
     #   name: Publish
